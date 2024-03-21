@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+    line-height: 1.5;
+}
+
+header{
+    background-image: url(img/bg-img.jpg);
+    height: 80vh;
+    block-size:cover;
+    background-position: center;
+}
+
+nav{
+    background-color: #00008b;
+    font-weight:bold;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+nav p{
+    color: #0ff;
+    font-family: cursive;
+    font-size: 24px;
+}
+
+menu a:link, menu a:visited{
+    color: #ffff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+menu{
+    display: flex;
+    gap: 12px;
+}
+
+menu a:hover,menu a:first-child{
+    background-color: #ffff;
+    color: #00008b;
+    
+}
+
+h2{
+    text-align: center;
+    grid-column: 1 /-1;
+    letter-spacing: 10px;
+}
+.card{
+    background-color: #d3d3d3;
+    border-radius: 17px;
+    text-align: center;
+    
+
+
+}
+.card img{
+    width: 100%;
+    border-radius: 17px;
+}
+.programmes{
+    display: grid;
+    margin: 50px auto;
+    width: 80%;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 40px;
+    row-gap: 60px;
+    
+}
+
+.card p{
+    padding: 10px;
+
+}
+
+.card h3{
+    text-transform: capitalize;
+}
+
+.client{
+    text-align: center;
+    margin: 50px auto;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px ;
+    margin-top: 20px;
+
+}
+
+.img img{
+    width: 200px;
+
+}
